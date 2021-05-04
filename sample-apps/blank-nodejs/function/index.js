@@ -14,7 +14,6 @@ exports.handler = async function(event, context) {
   console.log('## EVENT: ' + serialize(event))
   
   return getAccountSettings()
-  //return getAccountSettings()//Eric
 }
 
 // Use SDK client
