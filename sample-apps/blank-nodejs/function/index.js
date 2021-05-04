@@ -13,7 +13,6 @@ exports.handler = async function(event, context) {
   console.log('## CONTEXT: ' + serialize(context))
   console.log('## EVENT: ' + serialize(event))
   
-  //return getAccountSettings()
   return getAccountSettings()
 }
 
